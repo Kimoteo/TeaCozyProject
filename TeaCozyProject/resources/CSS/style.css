@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS document */
+
+/* GENERAL */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-family:Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+a{
+	color:seashell;
+}
+
+h2, h3, h4 {
+	padding:10px;
+	margin:0;
+}
+
+
+/* HEADER */
+
+header {
+	display: flex;
+	position: fixed;
+	z-index: 1;
+	height:69px;
+	width:100%;
+	background-color: black;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom:1px solid seashell;
+}
+
+img.logo{
+	height:50px;
+	padding-left: 10px;
+}
+
+nav ul {
+	padding:20px 0;
+	margin:0;
+}
+
+nav li {
+	display:inline-block;
+	padding:0 10px;
+}
+
+
+/* MAIN CONTENT */
+
+.main-content {
+	padding-top:69px;
+	width:1200px;
+	margin:auto;
+}
+
+/* HERO */
+
+#hero {
+	height:700px;
+	background-image: url(../images/img-mission-background.jpg);
+	display:flex;
+	align-items: center;
+}
+
+.hero-header {
+	background-color: black;
+	width:100%;
+}
+
+
+/* FEATURED PRODUCTS */
+#featured {
+	width:1000px;
+	margin:auto;
+	padding:70px 0 50px 0;
+}
+
+.products {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product {
+	padding:5px;
+}
+
+.product img {
+	width:300px;
+	height:200px;
+	margin:10px;
+}
+
+
+/* STORES */
+#stores {
+	height:570px;
+	background-image: url(../images/img-locations-background.jpg);
+	padding-top:70px;
+}
+
+.store-locations {
+	display:flex;
+	justify-content: center;
+	padding-top:5px;
+}
+
+.store-location {
+	width:300px;
+	margin:0 20px;
+	padding:10px;
+	background-color: black;
+	opacity: 1;
+}
+
+.store-location p{
+	line-height: 55px;
+}
+
+/* CONTACT */
+
+#contact {
+	height:200px;
+}
+
+/* FOOTER */
+footer{
+	text-align: left;
+	padding-left:20px;
+}
